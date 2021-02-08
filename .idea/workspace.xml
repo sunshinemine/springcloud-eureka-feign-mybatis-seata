@@ -65,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="219">
-                <caret line="277" column="27" selection-start-line="277" selection-start-column="27" selection-end-line="277" selection-end-column="27" />
+              <first_editor relative-caret-position="267">
+                <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
                 <folding>
                   <element signature="e#412#413#0" expanded="true" />
                   <element signature="e#471#472#0" expanded="true" />
@@ -249,7 +249,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
+    <option name="x" value="-10" />
     <option name="y" value="23" />
     <option name="width" value="1646" />
     <option name="height" value="1027" />
@@ -864,7 +864,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612755234173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612762738542" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
@@ -990,7 +990,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612408213979</updated>
       <workItem from="1612408216134" duration="49744000" />
-      <workItem from="1612669278584" duration="13034000" />
+      <workItem from="1612669278584" duration="13737000" />
     </task>
     <servers />
   </component>
@@ -1006,12 +1006,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62778000" />
+    <option name="totallyTimeSpent" value="63481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="23" width="1646" height="1027" extended-state="0" />
+    <frame x="-10" y="23" width="1646" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.3298005" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.13279302" />
       <window_info id="Structure" order="1" sideWeight="0.5008696" side_tool="true" weight="0.22942643" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1411,8 +1412,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="219">
-            <caret line="277" column="27" selection-start-line="277" selection-start-column="27" selection-end-line="277" selection-end-column="27" />
+          <first_editor relative-caret-position="267">
+            <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
             <folding>
               <element signature="e#412#413#0" expanded="true" />
               <element signature="e#471#472#0" expanded="true" />

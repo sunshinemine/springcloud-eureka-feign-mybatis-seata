@@ -1,5 +1,4 @@
-### 项目地址：
-   - https://github.com/sunshinemine/springcloud-eureka-feign-mybatis-seata.git
+### 项目地址：https://github.com/sunshinemine/springcloud-eureka-feign-mybatis-seata.git
 ### 本项目参考：https://github.com/seata/seata-samples.git
 ### 概览
 - 1.创建数据库表(项目脚本.sql)
@@ -28,8 +27,6 @@ jdk：1.8
 seata：1.2
 
 ### 2.demo概况
-demo分为五个项目。
-
 - eureka:作为注册中心，注册微服务和seata
 - order:订单服务，全局事务管理@GlobalTransactional,调用storage和account服务;
 - storage:库存服务，用户扣减库存；
@@ -40,7 +37,7 @@ demo分为五个项目。
 ### 3.seata server端配置信息修改
 seata-server中，/conf目录下，有两个配置文件，需要结合自己的情况来修改：
 
-##### 3.1.file.conf 
+##### file.conf 
 
 里面有事务组配置，锁配置，事务日志存储等相关配置信息，由于此demo使用db存储事务信息，我们这里要修改store中的配置：
 ```java
@@ -85,7 +82,7 @@ store {
 }
 ```
 
-##### 3.2.registry.conf
+##### registry.conf
 
 registry{}中是注册中心相关配置，config{}中是配置中心相关配置。
 
