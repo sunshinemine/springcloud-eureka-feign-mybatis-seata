@@ -18,15 +18,13 @@
 
 数据库：mysql 8.0.22
 
-Springboot:2.1.2.RELEASE
+Springboot：2.1.2.RELEASE
 
-Springcloud:Greenwich.SR2
+Springcloud：Greenwich.SR2
 
-jdk:1.8 
+jdk：1.8 
 
-seata:1.2
-
-使用不同组件，配置情况不同，可参考其他sample；
+seata：1.2
 
 ### 2.demo概况
 demo分为五个项目。
@@ -35,7 +33,7 @@ demo分为五个项目。
 - order:订单服务，全局事务管理@GlobalTransactional,调用storage和account服务;
 - storage:库存服务，用户扣减库存；
 - account:账户服务，用于扣减账户余额；
-- common: 公共组件
+- common:公共组件
 
 
 ### 3.seata server端配置信息修改
@@ -88,7 +86,7 @@ store {
 
 ##### 3.2.registry.conf
 
-registry{}中是注册中心相关配置，config{}中是配置中心相关配置。seata中，注册中心和配置中心是分开实现的，是两个东西。
+registry{}中是注册中心相关配置，config{}中是配置中心相关配置。
 
 我们这里用eureka作注册中心，所以，只用修改registry{}中的：
 ```java
@@ -203,7 +201,6 @@ registry {
   }
 }
 ```
-其他的使用默认值就好。
 
 #### 4.3.数据源代理
 这个是要特别注意的地方，seata对数据源做了代理和接管，在每个参与分布式事务的服务中，都要做如下配置：
@@ -245,6 +242,7 @@ public class DataSourceConfiguration {
 - 1.启动eureka;
 - 2.启动seata-server;
 - 3.启动order,storage,account服务;
+- 4.调用参数
 /order/create
 {
     "userId": 1,

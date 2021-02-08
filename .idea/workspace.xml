@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36f40829-5503-4263-8c7a-8bc44ce6286d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/项目脚本.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/src/main/resources/account.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/order.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-server/src/main/resources/storage.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/account-server/target/" />
@@ -69,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1">
-                <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+              <first_editor relative-caret-position="1364">
+                <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
                 <folding>
                   <element signature="e#412#413#0" expanded="true" />
                   <element signature="e#471#472#0" expanded="true" />
@@ -253,8 +249,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="131" />
-    <option name="y" value="86" />
+    <option name="x" value="112" />
+    <option name="y" value="23" />
     <option name="width" value="1646" />
     <option name="height" value="1027" />
   </component>
@@ -868,7 +864,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612754489950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612755009356" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
@@ -994,7 +990,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612408213979</updated>
       <workItem from="1612408216134" duration="49744000" />
-      <workItem from="1612669278584" duration="12225000" />
+      <workItem from="1612669278584" duration="12780000" />
     </task>
     <servers />
   </component>
@@ -1010,13 +1006,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61969000" />
+    <option name="totallyTimeSpent" value="62524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="38" width="1646" height="1027" extended-state="0" />
+    <frame x="112" y="23" width="1646" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" sideWeight="0.5008696" side_tool="true" weight="0.22942643" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1032,8 +1028,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32943925" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8921446" visible="true" weight="0.17763157" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.107855365" side_tool="true" visible="true" weight="0.17763157" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.8915212" visible="true" weight="0.3739035" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1084788" side_tool="true" visible="true" weight="0.3739035" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.7936409" weight="0.41042346" />
       <window_info anchor="bottom" id="SonarLint" order="11" sideWeight="0.49937657" weight="0.3297062" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49875313" weight="0.18777293" />
@@ -1416,8 +1412,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1">
-            <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+          <first_editor relative-caret-position="1364">
+            <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             <folding>
               <element signature="e#412#413#0" expanded="true" />
               <element signature="e#471#472#0" expanded="true" />
