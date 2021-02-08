@@ -1,4 +1,5 @@
-# 项目地址：https://github.com/sunshinemine/springcloud-eureka-feign-mybatis-seata.git
+# 项目地址：
+   - https://github.com/sunshinemine/springcloud-eureka-feign-mybatis-seata.git
 # 本项目参考：https://github.com/seata/seata-samples.git
 ### 概览
 - 1.创建数据库表(项目脚本.sql)
@@ -14,7 +15,7 @@
 
 服务间调用：openfeign
 
-持久层：mybatis 
+持久层：mybatis 2.0.0
 
 数据库：mysql 8.0.22
 
@@ -37,7 +38,7 @@ demo分为五个项目。
 
 
 ### 3.seata server端配置信息修改
-seata-server中，/conf目录下，有两个配置文件,需要结合自己的情况来修改：
+seata-server中，/conf目录下，有两个配置文件，需要结合自己的情况来修改：
 
 ##### 3.1.file.conf 
 
