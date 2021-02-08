@@ -1,0 +1,1 @@
+package io.seata.sample.result;import lombok.Getter;@Getterpublic enum Result {    SUCCESS("SUCCESS", 0),    FAIL("FAIL", 1);    private String message;    private Integer code;    Result(String message, Integer code) {        this.message = message;        this.code = code;    }}
