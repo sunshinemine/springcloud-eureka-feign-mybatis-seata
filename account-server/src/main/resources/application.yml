@@ -6,10 +6,6 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
 feign:
-#  httpclient:
-#    enabled: false
-#  okhttp:
-#    enabled: true
   client:
     config:
       default:
