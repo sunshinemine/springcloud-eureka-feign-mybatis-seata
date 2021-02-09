@@ -1,7 +1,3 @@
-### Project private config files
-*/*/src/main/resources/application-*.yaml
-!/*/*/src/main/resources/application-demo.yaml
-
 ### IntelliJ project files
 .idea/
 *.iml
