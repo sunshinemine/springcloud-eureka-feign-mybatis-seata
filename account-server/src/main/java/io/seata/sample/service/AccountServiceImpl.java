@@ -1,7 +1,6 @@
 package io.seata.sample.service;
 
 import io.seata.sample.dao.AccountDao;
-import io.seata.sample.entity.Order;
 import io.seata.sample.feign.OrderApi;
 import io.seata.sample.result.Back;
 import java.math.BigDecimal;
@@ -31,12 +30,9 @@ public class AccountServiceImpl implements AccountService {
         LOGGER.info("------->扣减账户开始account中");
         accountDao.decrease(userId, money);
         LOGGER.info("------->扣减账户结束account中");
-        //修改订单状态，此调用会导致调用成环
+        //远程方法 修改订单状态
         LOGGER.info("修改订单状态开始");
         Back mes = orderApi.update(userId, productId, 0);
         LOGGER.info("修改订单状态结束：{}", mes);
-        Order order = new Order();
-        order.setId(1L);
-        orderApi.getOrder(order);
     }
 }

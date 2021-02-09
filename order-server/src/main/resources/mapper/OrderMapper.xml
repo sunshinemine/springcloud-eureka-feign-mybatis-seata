@@ -29,7 +29,7 @@
     where user_id = #{userId} and status = #{status} and product_id = #{productId};
   </update>
 
-  <select id="detail" resultType="io.seata.sample.entity.Order">
+  <select id="detail" resultMap="BaseResultMap">
     SELECT * FROM `order` where id = #{id}
   </select>
 </mapper>

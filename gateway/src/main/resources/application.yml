@@ -1,3 +1,6 @@
+server:
+  port: 8989
+
 spring:
   application:
     name: gateway
@@ -27,9 +30,6 @@ spring:
         uri: lb://storage-server
         predicates:
         - Path=/storage/**
-
-server:
-  port: 8989
 
 eureka:
   instance:
