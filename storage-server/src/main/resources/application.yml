@@ -8,7 +8,7 @@ eureka:
 logging:
   level:
     io:
-      seata: info
+      seata: debug
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   typeAliasesPackage: io.seata.sample.entity
