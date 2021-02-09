@@ -10,6 +10,7 @@
         <module name="account-server" />
         <module name="common" />
         <module name="eureka-server" />
+        <module name="gateway" />
         <module name="order-server" />
         <module name="storage-server" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="account-server" target="1.8" />
       <module name="common" target="1.7" />
       <module name="eureka-server" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="order-server" target="1.8" />
       <module name="springcloud-eureka-feign-mybatis-seata" target="1.8" />
       <module name="storage-server" target="1.8" />
@@ -28,6 +30,7 @@
       <module name="account-server" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="order-server" options="-parameters" />
       <module name="springcloud-eureka-feign-mybatis-seata" options="-parameters" />
       <module name="storage-server" options="-parameters" />

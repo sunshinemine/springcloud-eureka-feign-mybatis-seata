@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/account-server/account-server.iml" filepath="$PROJECT_DIR$/account-server/account-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-server/order-server.iml" filepath="$PROJECT_DIR$/order-server/order-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-feign-mybatis-seata.iml" filepath="$PROJECT_DIR$/springcloud-eureka-feign-mybatis-seata.iml" />
       <module fileurl="file://$PROJECT_DIR$/storage-server/storage-server.iml" filepath="$PROJECT_DIR$/storage-server/storage-server.iml" />
