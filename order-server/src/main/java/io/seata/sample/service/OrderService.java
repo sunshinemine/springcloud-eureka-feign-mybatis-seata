@@ -3,9 +3,6 @@ package io.seata.sample.service;
 import io.seata.sample.entity.Order;
 import java.math.BigDecimal;
 
-/**
- * @author IT云清
- */
 public interface OrderService {
 
     /**

@@ -12,9 +12,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
-/**
- * 数据源代理
- */
 @Configuration
 public class DataSourceConfiguration {
 

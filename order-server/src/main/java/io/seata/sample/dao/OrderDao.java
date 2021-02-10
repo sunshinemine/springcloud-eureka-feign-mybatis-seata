@@ -5,9 +5,6 @@ import java.math.BigDecimal;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
-/**
- * @author IT云清
- */
 @Repository
 public interface OrderDao {
 
