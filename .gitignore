@@ -2,7 +2,6 @@
 .idea/
 *.iml
 target/
-*.class
 
 ### Build files
 */*/target/*
