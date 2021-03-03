@@ -4,11 +4,11 @@ import io.seata.sample.dao.OrderDao;
 import io.seata.sample.entity.Order;
 import io.seata.sample.feign.AccountApi;
 import io.seata.sample.feign.StorageApi;
-import io.seata.spring.annotation.GlobalTransactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service("orderServiceImpl")
 public class OrderServiceImpl implements OrderService {
@@ -31,7 +31,7 @@ public class OrderServiceImpl implements OrderService {
      * 2.不添加本地事务：创建订单，扣减库存
      */
     @Override
-    @GlobalTransactional(name = "fsp-create-order", rollbackFor = Exception.class)
+    @Transactional
     public void create(Order order) {
         LOGGER.info("------->交易开始");
 
@@ -45,7 +45,7 @@ public class OrderServiceImpl implements OrderService {
         LOGGER.info("------->扣减账户开始order中");
         accountApi.decrease(order.getUserId(), order.getMoney(), order.getProductId());
         LOGGER.info("------->扣减账户结束order中");
-
+        int i = 1 / 0;
         LOGGER.info("------->交易结束");
     }
 

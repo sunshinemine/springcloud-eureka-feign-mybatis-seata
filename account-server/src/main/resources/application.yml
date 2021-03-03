@@ -6,6 +6,12 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
 feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  hystrix:
+    enabled: true
   client:
     config:
       default:
@@ -23,14 +29,10 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 server:
-  port: 8181
+  port: 8183
 spring:
   application:
     name: account-server
-  cloud:
-    alibaba:
-      seata:
-        tx-service-group: my_test_tx_group
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/seata_account?serverTimezone=Asia/Shanghai
